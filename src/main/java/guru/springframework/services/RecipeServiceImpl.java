@@ -1,12 +1,15 @@
 package guru.springframework.services;
 
-import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.RecipeRepository;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Service;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.log;
 
 import java.util.HashSet;
 import java.util.Set;
+
+import org.springframework.stereotype.Service;
+
+import guru.springframework.domain.Recipe;
+import guru.springframework.repositories.RecipeRepository;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * Created by jt on 6/13/17.
